@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+<body>
+  <nav id="navbar">
+    <header>40k Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#command_phase">Command Phase</a></li>
+        <li><a class="nav-link" href="#movement_phase">Movement Phase</a></li>
+        <li><a class="nav-link" href="#shooting_phase">Shooting Phase</a></li>
+        <li><a class="nav-link" href="#assault_phase">Assault Phase</a></li>
+        </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id ="introduction">
+      <header >Introduction</header>
+       <p>This is an introduction to 40k, briefly summarising the various phases in a single turn of 10th edition.</p>
+       <p>Below is a list of steps that occur before the first turn begins:</p>
+       <ul>
+         <li>Set up the map.</li>
+         <li>Set up the deployment areas.</li>
+         <li>Randomly select a mission.</li>
+         <li>Roll to see who deploys first.</li>
+         <li>Deploy armies, one unit at a time.</li>
+         <li>Roll to see who goes first.</li>
+       </ul>
+    </section>
+    <section class="main-section" id="command_phase">
+      <header >Command Phase</header>
+       <p>In the command phase you gain 1 Command Point.</p>
+       <p>You also carry out any abilities from your army that must be carried out in the Command Phase</p>
+    </section>
+    <section class="main-section" id="movement_phase">
+      <header >Movement Phase</header>
+        <p>In the Movement, units in your army can move up to their movement characteristic, this is found on their datasheet.</p>
+        <code><em>Astartes</em>
+          <table>
+            <tr>
+            <th>M</th>
+            <th>T</th>
+            <th>Sv</th>
+            <th>W</th>
+            <th>Ld</th>
+            <th>Oc</th>
+            </tr>
+            <tr>
+              <th>6"</th>
+              <th>4</th>
+              <th>3+</th>
+              <th>2</th>
+              <th>6+</th>
+              <th>2</th>
+            </tr>
+          </table></code>
+        <p>Models do not have to move the full distance and can choose to remain stationary instead.</p>
+    </section>
+    <section class="main-section" id="shooting_phase">
+      <header >Shooting Phase</header>
+        <p>Some units in your army will have ranged weapons. In the shooting phase they will be able to use these to target enemy units.</p>
+        <code><em>Bolter</em><table>
+          <tr>
+          <th>Weapon</th>
+          <th>Range</th>
+          <th>Attacks</th>
+          <th>Bs</th>
+          <th>S</th>
+          <th>Ap</th>
+          <th>D</th>
+          </tr>
+          <tr>
+            <th>Bolter</th>
+            <th>24"</th>
+            <th>2</th>
+            <th>3+</th>
+            <th>4</th>
+            <th>0</th>
+            <th>1</th>
+          </tr>
+        </table></code>
+        <code><em>Lascannon</em><table>
+          <tr>
+          <th>Weapon</th>
+          <th>Range</th>
+          <th>Attacks</th>
+          <th>Bs</th>
+          <th>S</th>
+          <th>Ap</th>
+          <th>D</th>
+          </tr>
+          <tr>
+            <th>Lascannon[heavy]</th>
+            <th>48"</th>
+            <th>1</th>
+            <th>4+</th>
+            <th>12</th>
+            <th>-3</th>
+            <th>D6+1</th>
+          </tr>
+        </table></code>
+        <p>Some weapons have tags, such as [heavy], which grant additional bonuses, [heavy] gives +1 to hit if your unit remained stationary in the movement phase.</p>
+    </section>
+    <section class="main-section" id="assault_phase">
+      <header >Assault Phase</header>
+        <p>In the Assault Phase, units can charge into enemy units and use their melee weapons to do damage instead.</p>
+        <p>First a unit must roll 2D6 dice to see if they can make the charge. If the number rolled is equal to or higher than the distance between the two units, you can charge with your unit.</p>
+        <code><em>Chainsword</em><table>
+          <tr>
+          <th>Weapon</th>
+          <th>Range</th>
+          <th>Attacks</th>
+          <th>Bs</th>
+          <th>S</th>
+          <th>Ap</th>
+          <th>D</th>
+          </tr>
+          <tr>
+            <th>Chainsword</th>
+            <th>Melee</th>
+            <th>5</th>
+            <th>3+</th>
+            <th>4</th>
+            <th>-1</th>
+            <th>1</th>
+          </tr>
+        </table></code>
+        <code><em>Power Fist</em><table>
+          <tr>
+          <th>Weapon</th>
+          <th>Range</th>
+          <th>Attacks</th>
+          <th>Bs</th>
+          <th>S</th>
+          <th>Ap</th>
+          <th>D</th>
+          </tr>
+          <tr>
+            <th>Power Fist</th>
+            <th>Melee</th>
+            <th>3</th>
+            <th>3+</th>
+            <th>8</th>
+            <th>-2</th>
+            <th>2</th>
+          </tr>
+        </table></code>
+        <p>You then select which melee weapon you wish to use, roll a number of dice equal to the A(attacks) characteristic of the weapon. You need to roll higher than the Ws of the weapon. Compare the strength of the weapon to the opponents toughness, the enemy model then makes a saving throw, and takes damage equal to the D (damage) of the weapon.</p>
+       </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,95 @@
+#navbar {
+  display: block;
+  position: fixed;
+  min-width: 200px;
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 100%;
+  border-right: solid;
+  border-color: grey;
+  padding-right: 8px;
+  text-align: center;
+}
+
+#navbar li {
+  border-top: 1px solid;
+  list-style: none;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+#navbar ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+  line-height: 2;
+}
+
+#navbar header {
+  font-size: 20px;
+}
+
+main header {
+  font-size: 20px;
+}
+
+main p {
+  font-size: 15px;
+}
+
+html body {
+  display: block;
+  position: absolute;
+  margin-left: 200px;
+  padding: 20px;
+  margin-bottom: 110px;
+  border-right: solid;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  line-height: 1;
+  word-spacing: 16;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1199px) and (min-width: 769px) {
+}
+
+em {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14;
+}
+
+#table {
+  display: table;
+}
+
+table {
+  width: 150px;
+}
+
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+}
