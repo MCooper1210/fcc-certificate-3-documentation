@@ -1,5 +1,9 @@
 # <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg" width="30px"> freeCodeCamp - Certificate 3 - 40k Rules Documentation
 
+Please open the following link to view the webpages in codesandbox.io:
+
+https://codesandbox.io/p/github/MCooper1210/fcc-certificate-3-documentation
+
 This repository contains the index.html and styles.css for the third freeCodeCamp course certificate, a documentation page. For this, I chose to write documentation for some of the rules for Warhammer 40k 10th edition rules.
 
 ## Description
